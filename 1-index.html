@@ -1,81 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage - Headphones</title>
+    <meta name="robots" content="index, follow">
 
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="1-styles.css">
+    <title>Headphones</title>
+    <meta name="description" content="This page is the result of a web creation exercise based on a design by Nicolas Philippot, built with HTML and CSS.">
+    <meta name="author" content="Fabien Chavonet">
+    <meta name="keywords" content="holberton, school, learning, html, css">
+
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./1-styles.css">
 </head>
+
 <body>
-    <!-- Header -->
-  <header class="header">
-    <div class="container">
-
-      <div class="nav">
-        <img src="images/logo_headphones.png" alt="Logo" class="logo">
-
-        <input type="checkbox" id="menu-toggle">
-
-        <label for="menu-toggle" class="menu-icon">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+    <!-- HEADER -->
+    <header>
+        <input id="checkbox" type="checkbox">
+        <label id="hamburger_button" for="checkbox">
+            <span class="bar" id="bar1"></span>
+            <span class="bar" id="bar2"></span>
+            <span class="bar" id="bar3"></span>
         </label>
 
-        <ul class="nav-links">
-          <li><a href="#">what we do</a></li>
-          <li><a href="#">our results</a></li>
-          <li><a href="#">contact us</a></li>
-        </ul>
-      </div>
+        <img class="logo_headphones" src="./assets/images/logo_headphones.png" alt="Headphones logo">
 
-      <div class="hero">
-        <h1 class="hero-title">Lorem ipsum dolor set amet lorem ipsum</h1>
-        <p>Lorem ipsum dolor set amet lorem ipsum dolor set</p>
+        <nav>
+            <ul>
+                <li><a href="#what_we_do">what we do</a></li>
+                <li><a href="#our_results">our results</a></li>
+                <li><a href="#contact_us">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <button class="btn">CALL TO ACTION</button>
-
-        <p class="hero-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
-      </div>
-    </div>
-</header>
-    <!-- WHAT WE DO SECTION -->
-    <section class="what-we-do">
-        <div class="container">
-            <h2 class="section-title">What we do...</h2>
-            <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-            <div class="services">
-                <div class="service">
-                    <img src="images/what_we_do-desktop.png" alt="Sound frequency">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <!-- MAIN -->
+    <main>
+        <!-- BANNER SECTION -->
+        <section id="banner">
+            <div id="banner_container">
+                <div>
+                    <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+                    <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
                 </div>
 
-                <div class="service">
-                    <img src="images/what_we_do-video.png" alt="Video">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button>
+                    call to action
+                </button>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+        </section>
+
+        <!-- WHAT WE DO SECTION -->
+        <section id="what_we_do">
+            <div id="what_we_do_container">
+                <h1>What we do…</h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+            </div>
+
+            <div id="features_container">
+                <div class="features-horizontal">
+                    <div class="feature">
+                        <img src="./assets/images/what_we_do-sound_frecuency.png" alt="Sound frecuency logo">
+                        <h3>Lorem ipsum</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="feature">
+                        <img src="./assets/images/what_we_do-video.png" alt="Video logo">
+                        <h3>Lorem ipsum</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
                 </div>
 
-                <div class="service">
-                    <img src="images/what_we_do-music.png" alt="Music">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
+                <div class="features-horizontal">
+                    <div class="feature">
+                        <img src="./assets/images/what_we_do-music.png" alt="Music logo">
+                        <h3>Lorem ipsum</h3>
 
-                <div class="service">
-                    <img src="images/what_we_do-hearing.png" alt="Hearing">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
+
+                    <div class="feature">
+                        <img src="./assets/images/what_we_do-hearing.png" alt="Hearing logo">
+                        <h3>Lorem ipsum</h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+    </main>
 </body>
+
 </html>
