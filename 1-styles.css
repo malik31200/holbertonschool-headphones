@@ -223,7 +223,7 @@ body {
 
 [class^="holberton_school-icon-"]::before {
     font-family: "holberton_school-icon";
-    font-size: 90px;
+    font-size: 64px;
     color: var(--primary-color);
     font-style: normal;
     font-weight: normal;
