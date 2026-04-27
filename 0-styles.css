@@ -22,8 +22,7 @@ body {
 
 /* LOGO */
 .logo {
-    width: 150px;
-    margin: 20px;
+    width: 160px;
 }
 
 #menu-toggle {
@@ -49,6 +48,11 @@ body {
 
 
 /* NAV LINKS */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .nav-links {
     list-style: none;
     display: flex;
@@ -60,6 +64,7 @@ body {
 .nav-links a {
     text-decoration: none;
     color: white;
+    font-size: 14px;
 }
 
 .nav-links a:hover,
@@ -119,27 +124,41 @@ body {
 
 @media (max-width: 480px) {
 
-    /* SHOW HAMBURGER */
-    .menu-icon {
-        display: flex;
+    /* hide menu by default */
+    .nav {
+        position: relative;
     }
 
-    /* hide menu by default */
     .nav-links {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background: black;
         display: none;
         flex-direction: column;
-        background: black;
-        width: 100%;
-        padding: 20px 0;
+        align-items: center;
+        gap: 20px;
+        padding: 30px 0;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
     }
 
     /* show menu when checked */
+    .menu-icon {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        top: 25px;
+    }
     #menu-toggle:checked + .menu-icon + .nav-links {
         display: flex;
     }
 
     /* animation hamburger */
-    #menu-togglechecked + .menu-icon .bar:nth-child(1) {
+    #menu-toggle:checked + .menu-icon .bar:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
 
