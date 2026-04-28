@@ -295,3 +295,42 @@ body {
     color: #333;
 }
 
+/* OUR RESULTS */
+.our-results {
+    background: url("images/headphones_hero_2.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.our-results .section-title,
+.our-results .section-text {
+    color: white;
+}
+
+.pentagon {
+    position: relative;
+    display: inline-block;
+}
+
+.pentagon img {
+    width: 190px;
+}
+
+.pentagon-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pentagon-content .pentagon-value {
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+}
+
+.pentagon-content .pentagon-label {
+    font-size: 14px;
+    color: white;
+}
