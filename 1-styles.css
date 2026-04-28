@@ -214,21 +214,17 @@ body {
 }
 
 [class^="holberton_school-icon-"]::before {
-    font-family: "holberton_school-icon";
-    font-size: 64px;
+    font-size: 100px;
     color: var(--primary-color);
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    -webkit-font-smoothing: antialiased;
 }
 
 /* SECTION WHAT WE DO */
 .what-we-do {
+    max-width: 1260px;
+    margin: 0 auto;
     background-color: #ffffff;
     text-align: center;
-    padding: 80px 20px;
+    padding: 110px 20px;
 }
 
 .subtitle {
