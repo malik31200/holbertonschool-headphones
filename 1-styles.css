@@ -135,12 +135,6 @@ body {
     padding-bottom: 60px;
 }
 
-@media (max-width: 768px) {
-    .what-we-do {
-        max-width: 691px;
-    }
-}
-
 @media (max-width: 480px) {
 
     /* hide menu by default */
@@ -232,6 +226,12 @@ body {
     background-color: #ffffff;
     text-align: center;
     padding: 129px 20px;
+}
+
+@media (max-width: 768px) {
+    .what-we-do {
+        max-width: 691px;
+    }
 }
 
 .subtitle {
