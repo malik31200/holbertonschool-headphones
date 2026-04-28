@@ -199,11 +199,6 @@ body {
 /* OUR RESULTS */
 .our-results {
     width: 100%;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
     background: url("images/headphones_hero_2.jpg") no-repeat center center;
     background-size: cover;
     padding: 80px 0;
@@ -223,7 +218,6 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     flex-wrap: nowrap;
-    background: transparent;
 }
 
 .our-results .service {
