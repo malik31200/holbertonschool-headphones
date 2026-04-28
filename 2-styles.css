@@ -10,7 +10,7 @@
 :root {
     --primary-color: #ff6565;
     --text-color: #ffffff;
-    --max-width: 1000px;
+    --max-width: 1260px;
 }
 
 
@@ -135,6 +135,127 @@ body {
     padding-bottom: 60px;
 }
 
+/* ICONE */
+[class^="holberton_school-icon-"] {
+    display: block;
+    margin-bottom: 15px;
+}
+
+[class^="holberton_school-icon-"]::before {
+    font-size: 100px;
+    color: var(--primary-color);
+}
+
+/* SECTION WHAT WE DO */
+.what-we-do {
+    max-width: 1260px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 129px 20px;
+}
+
+.subtitle {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #071629;
+}
+
+.subtext {
+    max-width: 600px;
+    margin: 0 auto 60px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+    max-width: 1260px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.service h3 {
+    color: #071629;
+    font-weight: 600;
+}
+
+.service p {
+    color: #071629;
+    line-height: 1.857;
+}
+
+/* OUR RESULTS */
+.our-results {
+    background: url("images/headphones_hero_2.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #071629;
+}
+
+.section-text {
+    max-width: 600px;
+    margin: 0 auto 60px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.our-results .section-title,
+.our-results .section-text {
+    color: white;
+}
+
+.pentagon {
+    position: relative;
+    display: inline-block;
+}
+
+.pentagon img {
+    width: 190px;
+}
+
+.pentagon-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pentagon-content .pentagon-value {
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+}
+
+.pentagon-content .pentagon-label {
+    font-size: 14px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .what-we-do {
+        max-width: 691px;
+    }
+}
+
 @media (max-width: 480px) {
 
     /* hide menu by default */
@@ -192,6 +313,7 @@ body {
     /* HERO */
     .hero {
      margin-top: 200px;
+     max-width: 1260px;
     }
 
     .hero-title {
@@ -204,133 +326,9 @@ body {
         align-items: center;
         display: flex;
     }
-}
 
-/* ICONE IMPORT */
-@font-face {
-    font-family: "holberton_school-icon";
-    src: url("fonts/holberton_school-icon.eot");
-    src: url("fonts/holberton_school-icon.eot?#iefix") format("embedded-opentype"),
-        url("fonts/holberton_school-icon.woff") format("woff"),
-        url("fonts/holberton_school-icon.ttf") format("truetype"),
-        url("fonts/holberton_school-icon.svg#holberton_school-icon") format("svg");
-}
-
-/* ICONE */
-[class^="holberton_school-icon-"] {
-    display: block;
-    margin-bottom: 15px;
-}
-
-[class^="holberton_school-icon-"]::before {
-    font-family: "holberton_school-icon";
-    font-size: 64px;
-    color: var(--primary-color);
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    -webkit-font-smoothing: antialiased;
-}
-
-.holberton_school-icon-ic_sound::before  {
-    content: "\e90e";
-}
-
-.holberton_school-icon-ic_video::before  {
-    content: "\e910";
-}
-
-.holberton_school-icon-ic_music::before  { 
-    content: "\e90d";
-}
-
-.holberton_school-icon-ic_hearing::before {
-    content: "\e909";
-}
-
-/* SECTION WHAT WE DO */
-.what-we-do {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-.section-title {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #071629;
-}
-
-.section-text {
-    max-width: 600px;
-    margin: 0 auto 60px;
-    font-size: 14px;
-    line-height: 1.6;
-    color: #333;
-}
-
-/* SERVICES */
-.services {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    max-width: 1000px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-
-.service {
-    flex: 1;
-    min-width: 200px;
-    text-align: center;
-    padding: 20px;
-}
-
-.service h3 {
-    color: #071629;
-}
-
-.service p {
-    color: #333;
-}
-
-/* OUR RESULTS */
-.our-results {
-    background: url("images/headphones_hero_2.jpg") no-repeat center center;
-    background-size: cover;
-    padding: 80px 20px;
-    text-align: center;
-}
-
-.our-results .section-title,
-.our-results .section-text {
-    color: white;
-}
-
-.pentagon {
-    position: relative;
-    display: inline-block;
-}
-
-.pentagon img {
-    width: 190px;
-}
-
-.pentagon-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.pentagon-content .pentagon-value {
-    font-size: 46px;
-    font-weight: bold;
-    color: white;
-}
-
-.pentagon-content .pentagon-label {
-    font-size: 14px;
-    color: white;
+    /* WHAT WE DO */
+    .what-we-do {
+        max-width: 338px;
+    }
 }
