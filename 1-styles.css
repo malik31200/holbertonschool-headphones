@@ -206,6 +206,9 @@ body {
         display: flex;
     }
 
+    .what-we-do {
+        max-width: 338px;
+    }
 }
 
 /* ICONE */
