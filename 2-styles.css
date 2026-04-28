@@ -10,7 +10,7 @@
 :root {
     --primary-color: #ff6565;
     --text-color: #ffffff;
-    --max-width: 1260px;
+    --max-width: 1400px;
 }
 
 
@@ -198,8 +198,6 @@ body {
 
 /* OUR RESULTS */
 .our-results {
-    max-width: 1400px;
-    margin: 0 auto;
     background: url("images/headphones_hero_2.jpg") no-repeat center center;
     background-size: cover;
     padding: 80px 20px;
