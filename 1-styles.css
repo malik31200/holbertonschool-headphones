@@ -196,6 +196,12 @@ body {
     line-height: 1.857;
 }
 
+@media (max-width: 768px) {
+    .what-we-do {
+        max-width: 691px;
+    }
+}
+
 @media (max-width: 480px) {
 
     /* hide menu by default */
@@ -270,11 +276,5 @@ body {
     /* WHAT WE DO */
     .what-we-do {
         max-width: 338px;
-    }
-}
-
-@media (max-width: 768px) {
-    .what-we-do {
-        max-width: 691px;
     }
 }
