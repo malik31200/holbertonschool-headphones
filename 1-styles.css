@@ -206,16 +206,6 @@ body {
     }
 }
 
-/* ICONE IMPORT */
-@font-face {
-    font-family: "holberton_school-icon";
-    src: url("fonts/holberton_school-icon.eot");
-    src: url("fonts/holberton_school-icon.eot?#iefix") format("embedded-opentype"),
-        url("fonts/holberton_school-icon.woff") format("woff"),
-        url("fonts/holberton_school-icon.ttf") format("truetype"),
-        url("fonts/holberton_school-icon.svg#holberton_school-icon") format("svg");
-}
-
 /* ICONE */
 [class^="holberton_school-icon-"] {
     display: block;
@@ -231,22 +221,6 @@ body {
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-}
-
-.holberton_school-icon-ic_sound::before  {
-    content: "\e90e";
-}
-
-.holberton_school-icon-ic_video::before  {
-    content: "\e910";
-}
-
-.holberton_school-icon-ic_music::before  { 
-    content: "\e90d";
-}
-
-.holberton_school-icon-ic_hearing::before {
-    content: "\e909";
 }
 
 /* SECTION WHAT WE DO */
