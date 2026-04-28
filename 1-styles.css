@@ -192,6 +192,7 @@ body {
     /* HERO */
     .hero {
      margin-top: 200px;
+     max-width: 1260px;
     }
 
     .hero-title {
@@ -248,7 +249,7 @@ body {
 .services {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 58px;
     max-width: 1260px;
     margin: 0 auto;
     flex-wrap: wrap;
@@ -263,9 +264,11 @@ body {
 
 .service h3 {
     color: #071629;
+    font-weight: 600;
 }
 
 .service p {
-    color: #333;
+    color: #071629;
+    line-height: 1.857;
 }
 
