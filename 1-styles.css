@@ -135,6 +135,12 @@ body {
     padding-bottom: 60px;
 }
 
+@media (max-width: 768px) {
+    .what-we-do {
+        max-width: 691px;
+    }
+}
+
 @media (max-width: 480px) {
 
     /* hide menu by default */
@@ -207,13 +213,6 @@ body {
     }
 
 }
-
-@media (max-width: 768px) {
-    .what-we-do {
-        max-width: 691px;
-    }
-}
-
 
 /* ICONE */
 [class^="holberton_school-icon-"] {
