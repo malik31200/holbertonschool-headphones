@@ -209,13 +209,22 @@ html, body {
 
 .our-results-sentinel {
     position: absolute;
-    inset: 0;
+    top: 0;
+    left: 50%;
+    width: 1400px;
+    height: 643px;
+    transform: translateX(-50%);
     display: block;
-    opacity: 0;
+    color: transparent;
+    font-size: 1px;
+    line-height: 1;
     pointer-events: none;
+    z-index: 0;
 }
 
 .our-results .container {
+    position: relative;
+    z-index: 1;
     max-width: 1000px;
     margin: 0 auto;
 }
