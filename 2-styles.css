@@ -10,7 +10,7 @@
 :root {
     --primary-color: #ff6565;
     --text-color: #ffffff;
-    --max-width: 1400px;
+    --max-width: 1260px;
 }
 
 
@@ -198,19 +198,31 @@ body {
 
 /* OUR RESULTS */
 .our-results {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
     background: url("images/headphones_hero_2.jpg") no-repeat center center;
     background-size: cover;
-    padding: 80px 20px;
+    padding: 80px 0;
     text-align: center;
+}
+
+.our-results .container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .our-results .services {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     gap: 58px;
     max-width: 1000px;
     margin: 0 auto;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background: transparent;
 }
 
