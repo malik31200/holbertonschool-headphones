@@ -250,12 +250,11 @@ body {
     color: white;
 }
 
-/* ...tout le contenu de 2-styles.css ici... */
-
 /* CONTACT */
 .contact {
     background-color: #ffffff;
-    padding: 80px 20px;
+    height: 600px;
+    padding: 0px 20px;
 }
 
 .contact-form {
