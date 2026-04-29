@@ -255,6 +255,10 @@ body {
     .what-we-do {
         max-width: 691px;
     }
+
+     .our-results {
+        height: 1024px;
+    }
 }
 
 @media (max-width: 480px) {
