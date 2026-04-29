@@ -269,7 +269,6 @@ body {
     .our-results .service {
         flex: 0 0 45%;
     }
-
 }
 
 @media (max-width: 480px) {
@@ -346,5 +345,12 @@ body {
     /* WHAT WE DO */
     .what-we-do {
         max-width: 338px;
+    }
+
+    /* OUR RESULTS */
+    .our-results {
+        height: auto;
+        min-height: 800px;
+        padding: 60px 20px;
     }
 }
