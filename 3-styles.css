@@ -254,9 +254,9 @@ body {
 
 /* CONTACT */
 .contact {
+    max-width: 1400px;
     background-color: #ffffff;
     padding: 80px 20px;
-    text-align: center;
 }
 
 .contact-form {
