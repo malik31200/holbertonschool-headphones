@@ -259,6 +259,17 @@ body {
     .our-results {
         height: 1024px;
     }
+
+    .our-results .services {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .our-results .service {
+        flex: 0 0 45%;
+    }
+
 }
 
 @media (max-width: 480px) {
