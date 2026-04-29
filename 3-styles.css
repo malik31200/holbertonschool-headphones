@@ -10,7 +10,7 @@
 :root {
     --primary-color: #ff6565;
     --text-color: #ffffff;
-    --max-width: 1260px;
+    --max-width: 1440px;
 }
 
 
@@ -254,7 +254,6 @@ body {
 
 /* CONTACT */
 .contact {
-    max-width: 1400px;
     background-color: #ffffff;
     padding: 80px 20px;
 }
