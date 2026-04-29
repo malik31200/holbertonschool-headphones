@@ -425,6 +425,11 @@ body {
         max-width: 338px;
     }
 
+    /* FOOTER */
+    .footer {
+        padding: 20px 0;
+    }
+    
     .footer-content {
         flex-direction: column;
         gap: 20px;
